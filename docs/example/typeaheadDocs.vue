@@ -19,7 +19,7 @@
       <typeahead 
         placeholder="CCCAddress, async via maps.googleapis.com"
         key="results"
-        async="https://maps.googleapis.com/maps/api/geocode/json?address="
+        url="https://maps.googleapis.com/maps/api/geocode/json?address="
         template-name="async"
         :template="asyncTemplate"
         :on-hit="googleCallback"
@@ -31,7 +31,7 @@
       <typeahead 
         placeholder="Github users, async via api.github.com"
         key="items"
-        async="https://api.github.com/search/users?q=" 
+        url="https://api.github.com/search/users?q=" 
         template-name="github"
         :template="githubTemplate"
         :on-hit="githubCallback"
@@ -48,7 +48,7 @@
   <typeahead
     placeholder="Address, async via maps.googleapis.com"
     key="results"
-    src="https://maps.googleapis.com/maps/api/geocode/json?address="
+    url="https://maps.googleapis.com/maps/api/geocode/json?address="
     template-name="async"
     :template="asyncTemplate"
     :on-hit="googleCallback">
@@ -58,7 +58,7 @@
   <typeahead
     placeholder="Github users, async via api.github.com"
     key="items"
-    src="https://api.github.com/search/users?q="
+    url="https://api.github.com/search/users?q="
     template-name="typeahead-github-template"
     :template="githubTemplate"
     :on-hit="githubCallback">
@@ -108,10 +108,16 @@ new Vue {
           <td>The local data source for suggestions. Expected to be a primitive array.</td>
         </tr>
         <tr>
-          <td>async</td>
+          <td>url</td>
           <td><code>String</code></td>
           <td></td>
           <td>An HTTP URL for asynchronous suggestions. Expected to return a JSON object.</td>
+        </tr>
+        <tr>
+          <td>async</td>
+          <td><code>Function</code></td>
+          <td></td>
+          <td>A function that will asynchronously fetch suggestions, recieving the query and a callback to call with a results array.</td>
         </tr>
         <tr>
           <td>limit</td>

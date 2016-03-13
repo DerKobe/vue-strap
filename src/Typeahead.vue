@@ -43,8 +43,11 @@ const typeahead = {
         type: Number,
         default: 8
       },
-      async: {
+      url: {
         type: String
+      },
+      async: {
+        type: Function
       },
       template: {
         type:String
@@ -113,13 +116,15 @@ const typeahead = {
         }
         if (this.data) {
           this.items = this.primitiveData
-          this.showDropdown = this.items.length ? true : false
+          this.showDropdown = this.items.length != 0
         }
-        if (this.async) {
-          callAjax(this.async + this.query, (data)=> {
-            this.items = data[this.key].slice(0, this.limit)
-            this.showDropdown = this.items.length ? true : false
-          })
+        if (this.async || this.url) {
+          var that = this
+          var asyncFunc = this.async || this.defaultAsync
+          asyncFunc((this.url || '') + this.query, (items)=> {
+            that.items = items.slice(0, that.limit)
+            that.showDropdown = that.items.length != 0
+          });
         }
       },
       clear() {
@@ -153,6 +158,12 @@ const typeahead = {
       down() {
         this.current++
         if (this.current == this.items.length) this.current = -1
+      },
+      defaultAsync(path, callback) {
+        var key = this.key
+        callAjax(path, (data)=> {
+          callback(data[key])
+        })
       }
     },
     filters: {
