@@ -10,7 +10,7 @@
     @keydown.up="up"
     @keydown.down="down"
     @keydown.enter= "hit"
-    @keydown.esc="reset"
+    @keydown.esc="clear"
     @blur="showDropdown = false"
   />
   <ul class="dropdown-menu" v-el:dropdown>
@@ -63,9 +63,15 @@ const typeahead = {
       },
       onHit: {
         type: Function,
-        default(items) {
+        default(item) {
           this.reset()
-          this.query = items
+          this.query = item
+        }
+      },
+      onSearch: {
+        type: Function,
+        default(query) {
+          this.clear()
         }
       },
       placeholder: {
@@ -77,7 +83,7 @@ const typeahead = {
         query: '',
         showDropdown: false,
         noResults: true,
-        current: 0,
+        current: -1,
         items: [],
       }
     },
@@ -116,11 +122,15 @@ const typeahead = {
           })
         }
       },
-      reset() {
+      clear() {
+        this.current = -1
         this.items = []
-        this.query = ''
         this.loading = false
         this.showDropdown = false
+      },
+      reset() {
+        this.clear()
+        this.query = ''
       },
       setActive(index) {
         this.current = index
@@ -130,13 +140,19 @@ const typeahead = {
       },
       hit(e) {
         e.preventDefault()
-        this.onHit(this.items[this.current], this);
+        if (this.current == -1) {
+          this.onSearch(this.query, this)
+        } else {
+          this.onHit(this.items[this.current], this)
+        }
       },
       up() {
-        if (this.current > 0) this.current--
+        if (this.current == -1) this.current = this.items.length
+        this.current--
       },
       down() {
-        if (this.current < this.items.length - 1) this.current++
+        this.current++
+        if (this.current == this.items.length) this.current = -1
       }
     },
     filters: {

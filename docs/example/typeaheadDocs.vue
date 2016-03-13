@@ -138,6 +138,12 @@ new Vue {
           <td>A callback function when you click or hit return on an item.</td>
         </tr>
         <tr>
+          <td>on-search</td>
+          <td><code>Function</code></td>
+          <td></td>
+          <td>A callback function when you hit return with text that isn't an item.</td>
+        </tr>
+        <tr>
           <td>template</td>
           <td><code>String</code></td>
           <td><code>&lt;span v-html=&quot;$value | highlight query&quot;&gt;&lt;/span&gt;</code></td>
