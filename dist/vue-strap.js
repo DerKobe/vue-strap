@@ -5292,8 +5292,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      type: Number,
 	      default: 8
 	    },
-	    async: {
+	    url: {
 	      type: String
+	    },
+	    async: {
+	      type: Function
 	    },
 	    template: {
 	      type: String
@@ -5359,20 +5362,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  methods: {
 	    update: function update() {
-	      var _this2 = this;
-	
 	      if (!this.query) {
 	        this.reset();
 	        return false;
 	      }
 	      if (this.data) {
 	        this.items = this.primitiveData;
-	        this.showDropdown = this.items.length ? true : false;
+	        this.showDropdown = this.items.length != 0;
 	      }
-	      if (this.async) {
-	        (0, _callAjax2.default)(this.async + this.query, function (data) {
-	          _this2.items = data[_this2.key].slice(0, _this2.limit);
-	          _this2.showDropdown = _this2.items.length ? true : false;
+	      if (this.async || this.url) {
+	        var that = this;
+	        var asyncFunc = this.async || this.defaultAsync;
+	        asyncFunc((this.url || '') + this.query, function (items) {
+	          that.items = items.slice(0, that.limit);
+	          that.showDropdown = that.items.length != 0;
 	        });
 	      }
 	    },
@@ -5407,6 +5410,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	    down: function down() {
 	      this.current++;
 	      if (this.current == this.items.length) this.current = -1;
+	    },
+	    defaultAsync: function defaultAsync(path, callback) {
+	      var key = this.key;
+	      (0, _callAjax2.default)(path, function (data) {
+	        callback(data[key]);
+	      });
 	    }
 	  },
 	  filters: {
