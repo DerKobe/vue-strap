@@ -3362,8 +3362,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    toggleDropdown: function toggleDropdown(e) {
 	      e.preventDefault();
 	      this.$el.classList.toggle('open');
-	      this.$dispatch('dropdown-open', this);
+	      this.on = !this.on;
+	      this.$dispatch(this.on ? 'dropdown-open' : 'dropdown-close', this);
 	    }
+	  },
+	  data: function data() {
+	    return {
+	      _closeEvent: undefined,
+	      on: false
+	    };
 	  },
 	  ready: function ready() {
 	    var _this = this;
@@ -3376,7 +3383,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	    this._closeEvent = _EventListener2.default.listen(window, 'click', function (e) {
 	      if (!el.contains(e.target) || e.target.nodeName.toLowerCase() == 'a') {
-	        if (el.classList.contains('open')) {
+	        if (_this.on) {
 	          el.classList.remove('open');
 	          _this.$dispatch('dropdown-close', _this);
 	        }

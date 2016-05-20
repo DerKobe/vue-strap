@@ -11,7 +11,14 @@
       toggleDropdown(e) {
         e.preventDefault()
         this.$el.classList.toggle('open')
-        this.$dispatch('dropdown-open', this)
+        this.on = !this.on;
+        this.$dispatch(this.on ? 'dropdown-open': 'dropdown-close', this)
+      }
+    },
+    data() {
+      return {
+        _closeEvent: undefined,
+        on: false
       }
     },
     ready() {
@@ -24,7 +31,7 @@
       }
       this._closeEvent = EventListener.listen(window, 'click', (e)=> {
         if (!el.contains(e.target) || e.target.nodeName.toLowerCase() == 'a') {
-          if (el.classList.contains('open')) {
+          if (this.on) {
             el.classList.remove('open')
             this.$dispatch('dropdown-close', this)
           }
