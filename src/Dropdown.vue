@@ -23,6 +23,7 @@
     },
     ready() {
       const el = this.$el
+      const that = this
       const toggle = el.querySelector('[data-toggle="dropdown"]')
       if (toggle)
       {
@@ -31,9 +32,10 @@
       }
       this._closeEvent = EventListener.listen(window, 'click', (e)=> {
         if (!el.contains(e.target) || e.target.nodeName.toLowerCase() == 'a') {
-          if (this.on) {
+          if (that.on) {
+            that.on = false
             el.classList.remove('open')
-            this.$dispatch('dropdown-close', this)
+            that.$dispatch('dropdown-close', that)
           }
         }
       })

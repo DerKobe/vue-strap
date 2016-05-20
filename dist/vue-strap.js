@@ -3373,9 +3373,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  ready: function ready() {
-	    var _this = this;
-	
 	    var el = this.$el;
+	    var that = this;
 	    var toggle = el.querySelector('[data-toggle="dropdown"]');
 	    if (toggle) {
 	      toggle.style.borderRadius = '4px';
@@ -3383,9 +3382,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	    this._closeEvent = _EventListener2.default.listen(window, 'click', function (e) {
 	      if (!el.contains(e.target) || e.target.nodeName.toLowerCase() == 'a') {
-	        if (_this.on) {
+	        if (that.on) {
+	          that.on = false;
 	          el.classList.remove('open');
-	          _this.$dispatch('dropdown-close', _this);
+	          that.$dispatch('dropdown-close', that);
 	        }
 	      }
 	    });
