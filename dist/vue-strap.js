@@ -3362,9 +3362,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	    toggleDropdown: function toggleDropdown(e) {
 	      e.preventDefault();
 	      this.$el.classList.toggle('open');
+	      this.$dispatch('dropdown-open', this);
 	    }
 	  },
 	  ready: function ready() {
+	    var _this = this;
+	
 	    var el = this.$el;
 	    var toggle = el.querySelector('[data-toggle="dropdown"]');
 	    if (toggle) {
@@ -3372,7 +3375,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	      toggle.addEventListener('click', this.toggleDropdown);
 	    }
 	    this._closeEvent = _EventListener2.default.listen(window, 'click', function (e) {
-	      if (!el.contains(e.target) || e.target.nodeName.toLowerCase() == 'a') el.classList.remove('open');
+	      if (!el.contains(e.target) || e.target.nodeName.toLowerCase() == 'a') {
+	        if (el.classList.contains('open')) {
+	          el.classList.remove('open');
+	          _this.$dispatch('dropdown-close', _this);
+	        }
+	      }
 	    });
 	  },
 	  beforeDestroy: function beforeDestroy() {
