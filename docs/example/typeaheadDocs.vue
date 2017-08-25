@@ -1,4 +1,4 @@
-<template>
+\<template>
   <doc-section id="typeahead" name="Typeahead">
     <div class="bs-example">
       Typeahead failing.
@@ -103,6 +103,7 @@
         <p><code>null</code></p>
         <p>The remote JSON key you want to render. if null, render directly using the remote JSON(should be Array).</p>
       </div>
+      <div>
       <p>async-callback</p>
         <p><code>Function</code></p>
         <p>Uses JSON</p>
