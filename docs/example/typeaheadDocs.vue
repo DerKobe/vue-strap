@@ -1,4 +1,4 @@
-\<template>
+<template>
   <doc-section id="typeahead" name="Typeahead">
     <div class="bs-example">
       Typeahead failing.
