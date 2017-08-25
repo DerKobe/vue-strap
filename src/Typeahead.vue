@@ -7,7 +7,7 @@
       @blur="showDropdown = false"
       @keydown.down.prevent="down"
       @keydown.enter="hit"
-      @keydown.esc="reset"
+      @keydown.esc="close"
       @keydown.up.prevent="up"
     />
     <ul class="dropdown-menu" ref="dropdown">
@@ -92,19 +92,20 @@ export default {
       this.showDropdown = false
     },
     reset () { this.setValue(null) },
+    close () { this.setValue(this.val) },
     setActive (index) { this.current = index },
     isActive (index) { return this.current === index },
     hit (e) {
       e.preventDefault()
-      this.setValue(this.onHit(this.items[this.current], this))
+      this.setValue(this.onHit(this.items[this.current] || this.val, this))
     },
     up () {
-      if (this.current > 0) { this.current-- }
+      if (this.current >= 0) { this.current-- }
       else { this.current = this.items.length - 1 }
     },
     down () {
       if (this.current < this.items.length - 1) { this.current++ }
-      else { this.current = 0 }
+      else { this.current = -1 }
     }
   },
   created () {
