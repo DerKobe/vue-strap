@@ -30,6 +30,10 @@ export default {
     data: {type: Array},
     delay: {type: Number, default: DELAY},
     asyncKey: {type: String, default: null},
+    asyncFunc: {
+      type: Function, 
+      default (url, val) { return getJSON(url + val) }
+    },
     limit: {type: Number, default: 8},
     matchCase: {type: Boolean, default: false},
     matchStart: {type: Boolean, default: false},
@@ -116,7 +120,7 @@ export default {
       }
       this.asign = ''
       if (this.async) {
-        getJSON(this.async + this.val).then(data => {
+        this.asyncFunc(this.async, this.val).then(data => {
           this.setItems(data)
         })
       } else if (this.data) {
