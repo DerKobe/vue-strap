@@ -103,6 +103,11 @@
         <p><code>null</code></p>
         <p>The remote JSON key you want to render. if null, render directly using the remote JSON(should be Array).</p>
       </div>
+      <p>async-callback</p>
+        <p><code>Function</code></p>
+        <p>Uses JSON</p>
+        <p>The callback function that fetches the new suggestions. The function should return a promise. The function receives (url, value) as parameters.</p>
+      </div>
       <div>
         <p>limit</p>
         <p><code>Number</code></p>
