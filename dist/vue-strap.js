@@ -901,7 +901,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 7 */
 /***/ (function(module, exports) {
 
-	var core = module.exports = { version: '2.5.0' };
+	var core = module.exports = { version: '2.5.1' };
 	if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -2564,7 +2564,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Accordion.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Accordion.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Accordion.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -2716,7 +2716,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Affix.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Affix.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Affix.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -2866,7 +2866,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Alert.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Alert.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Alert.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -3367,7 +3367,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Aside.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Aside.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Aside.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -3593,7 +3593,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\ButtonGroup.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\ButtonGroup.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] ButtonGroup.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -3691,7 +3691,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Carousel.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Carousel.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Carousel.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -3985,7 +3985,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Checkbox.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Checkbox.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Checkbox.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -4216,7 +4216,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Datepicker.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Datepicker.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Datepicker.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -4852,7 +4852,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Dropdown.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Dropdown.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Dropdown.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -5066,7 +5066,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\FormGroup.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\FormGroup.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] FormGroup.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -5201,7 +5201,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\FormValidator.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\FormValidator.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] FormValidator.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -5325,7 +5325,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Input.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Input.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Input.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -5886,7 +5886,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Modal.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Modal.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Modal.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -6205,7 +6205,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Navbar.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Navbar.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Navbar.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -6408,7 +6408,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Option.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Option.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Option.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -6493,7 +6493,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Panel.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Panel.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Panel.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -6698,7 +6698,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Popover.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Popover.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Popover.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -6945,7 +6945,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Progressbar.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Progressbar.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Progressbar.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -7045,7 +7045,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Radio.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Radio.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Radio.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -7337,7 +7337,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Select.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Select.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Select.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -7942,7 +7942,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Slider.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Slider.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Slider.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -8029,7 +8029,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Spinner.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Spinner.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Spinner.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -8249,7 +8249,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Tab.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Tab.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Tab.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -8402,7 +8402,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\TabGroup.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\TabGroup.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] TabGroup.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -8543,7 +8543,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Tabs.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Tabs.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Tabs.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -8772,7 +8772,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\ToggleButton.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\ToggleButton.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] ToggleButton.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -8922,7 +8922,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Tooltip.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Tooltip.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Tooltip.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -9063,13 +9063,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /* script */
 	  __webpack_require__(192),
 	  /* template */
-	  __webpack_require__(208),
+	  __webpack_require__(207),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "E:\\yaron_docs\\projects\\multimediahelper\\temp\\vue-strap\\src\\Typeahead.vue"
+	Component.options.__file = "C:\\Temp\\vue-strap\\vue-strap\\src\\Typeahead.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] Typeahead.vue: functional components are not supported with templates, they should use render functions.")}
 	
@@ -9124,7 +9124,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, "\n.dropdown-menu > li > a {\r\n  cursor: pointer;\n}\r\n", "", {"version":3,"sources":["/./src/Typeahead.vue?137976a0"],"names":[],"mappings":";AAuIA;EACA,gBAAA;CACA","file":"Typeahead.vue","sourcesContent":["<template>\r\n  <div style=\"position: relative\" :class=\"{open:showDropdown}\">\r\n    <input class=\"form-control\" autocomplete=\"off\"\r\n      v-model=\"val\"\r\n      :placeholder=\"placeholder\"\r\n      :type.once=\"type\"\r\n      @blur=\"showDropdown = false\"\r\n      @keydown.down.prevent=\"down\"\r\n      @keydown.enter=\"hit\"\r\n      @keydown.esc=\"close\"\r\n      @keydown.up.prevent=\"up\"\r\n    />\r\n    <ul class=\"dropdown-menu\" ref=\"dropdown\">\r\n      <li v-for=\"(item, i) in items\" :class=\"{active: isActive(i)}\">\r\n        <a @mousedown.prevent=\"hit\" @mousemove=\"setActive(i)\">\r\n          <component :is=\"templateComp\" :item=\"item\"></component>\r\n        </a>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport {delayer, getJSON} from './utils/utils.js'\r\nvar DELAY = 300\r\n\r\nexport default {\r\n  props: {\r\n    async: {type: String},\r\n    data: {type: Array},\r\n    delay: {type: Number, default: DELAY},\r\n    asyncKey: {type: String, default: null},\r\n    asyncCallback: {\r\n      type: Function, \r\n      default (url, val) { return getJSON(url + val) }\r\n    },\r\n    limit: {type: Number, default: 8},\r\n    matchCase: {type: Boolean, default: false},\r\n    matchStart: {type: Boolean, default: false},\r\n    onHit: {\r\n      type: Function,\r\n      default (item) { return item }\r\n    },\r\n    placeholder: {type: String},\r\n    template: {type: String},\r\n    type: {type: String, default: 'text'},\r\n    value: {type: String, default: ''}\r\n  },\r\n  data () {\r\n    return {\r\n      asign: '',\r\n      showDropdown: false,\r\n      noResults: true,\r\n      current: 0,\r\n      items: [],\r\n      val: this.value\r\n    }\r\n  },\r\n  computed: {\r\n    templateComp () {\r\n      return {\r\n        template: typeof this.template === 'string' ? '<span>' + this.template + '</span>' : '<strong v-html=\"item\"></strong>',\r\n        props: { item: {default: null} }\r\n      }\r\n    }\r\n  },\r\n  watch: {\r\n    val (val, old) {\r\n      this.$emit('input', val)\r\n      if (val !== old && val !== this.asign) this.__update()\r\n    },\r\n    value (val) {\r\n      if (this.val !== val) { this.val = val }\r\n    }\r\n  },\r\n  methods: {\r\n    setItems (data) {\r\n      if (this.async) {\r\n        this.items = this.asyncKey ? data[this.asyncKey] : data\r\n        this.items = this.items.slice(0, this.limit)\r\n      } else {\r\n        this.items = (data || []).filter(value => {\r\n          if (typeof value === 'object') { return true }\r\n          value = this.matchCase ? value : value.toLowerCase()\r\n          var query = this.matchCase ? this.val : this.val.toLowerCase()\r\n          return this.matchStart ? value.indexOf(query) === 0 : value.indexOf(query) !== -1\r\n        }).slice(0, this.limit)\r\n      }\r\n      this.showDropdown = this.items.length > 0\r\n    },\r\n    setValue (value) {\r\n      this.asign = value\r\n      this.val = value\r\n      this.items = []\r\n      this.loading = false\r\n      this.showDropdown = false\r\n    },\r\n    reset () { this.setValue(null) },\r\n    close () { this.setValue(this.val) },\r\n    setActive (index) { this.current = index },\r\n    isActive (index) { return this.current === index },\r\n    hit (e) {\r\n      e.preventDefault()\r\n      this.setValue(this.onHit(this.items[this.current] || this.val, this))\r\n    },\r\n    up () {\r\n      if (this.current >= 0) { this.current-- }\r\n      else { this.current = this.items.length - 1 }\r\n    },\r\n    down () {\r\n      if (this.current < this.items.length - 1) { this.current++ }\r\n      else { this.current = -1 }\r\n    }\r\n  },\r\n  created () {\r\n    this.__update = delayer(function () {\r\n      if (!this.val) {\r\n        this.reset()\r\n        return\r\n      }\r\n      this.asign = ''\r\n      if (this.async) {\r\n        this.asyncCallback(this.async, this.val).then(data => {\r\n          this.setItems(data)\r\n        })\r\n      } else if (this.data) {\r\n        this.setItems(this.data)\r\n      }\r\n    }, 'delay', DELAY)\r\n    this.__update()\r\n  }\r\n}\r\n</script>\r\n\r\n<style>\r\n.dropdown-menu > li > a {\r\n  cursor: pointer;\r\n}\r\n</style>"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\n.dropdown-menu > li > a {\r\n  cursor: pointer;\n}\r\n", "", {"version":3,"sources":["/./src/Typeahead.vue?09d637a8"],"names":[],"mappings":";AAuIA;EACA,gBAAA;CACA","file":"Typeahead.vue","sourcesContent":["<template>\r\n  <div style=\"position: relative\" :class=\"{open:showDropdown}\">\r\n    <input class=\"form-control\" autocomplete=\"off\"\r\n      v-model=\"val\"\r\n      :placeholder=\"placeholder\"\r\n      :type.once=\"type\"\r\n      @blur=\"showDropdown = false\"\r\n      @keydown.down.prevent=\"down\"\r\n      @keydown.enter=\"hit\"\r\n      @keydown.esc=\"close\"\r\n      @keydown.up.prevent=\"up\"\r\n    />\r\n    <ul class=\"dropdown-menu\" ref=\"dropdown\">\r\n      <li v-for=\"(item, i) in items\" :class=\"{active: isActive(i)}\">\r\n        <a @mousedown.prevent=\"hit\" @mousemove=\"setActive(i)\">\r\n          <component :is=\"templateComp\" :item=\"item\" :query=\"val\"></component>\r\n        </a>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport {delayer, getJSON} from './utils/utils.js'\r\nvar DELAY = 300\r\n\r\nexport default {\r\n  props: {\r\n    async: {type: String},\r\n    data: {type: Array},\r\n    delay: {type: Number, default: DELAY},\r\n    asyncKey: {type: String, default: null},\r\n    asyncCallback: {\r\n      type: Function, \r\n      default (url, val) { return getJSON(url + val) }\r\n    },\r\n    limit: {type: Number, default: 8},\r\n    matchCase: {type: Boolean, default: false},\r\n    matchStart: {type: Boolean, default: false},\r\n    onHit: {\r\n      type: Function,\r\n      default (item) { return item }\r\n    },\r\n    placeholder: {type: String},\r\n    template: {type: String},\r\n    type: {type: String, default: 'text'},\r\n    value: {type: String, default: ''}\r\n  },\r\n  data () {\r\n    return {\r\n      asign: '',\r\n      showDropdown: false,\r\n      noResults: true,\r\n      current: 0,\r\n      items: [],\r\n      val: this.value\r\n    }\r\n  },\r\n  computed: {\r\n    templateComp () {\r\n      return {\r\n        template: typeof this.template === 'string' ? '<span>' + this.template + '</span>' : '<strong v-html=\"item\"></strong>',\r\n        props: { item: {default: null}, query: {default: null} }\r\n      }\r\n    }\r\n  },\r\n  watch: {\r\n    val (val, old) {\r\n      this.$emit('input', val)\r\n      if (val !== old && val !== this.asign) this.__update()\r\n    },\r\n    value (val) {\r\n      if (this.val !== val) { this.val = val }\r\n    }\r\n  },\r\n  methods: {\r\n    setItems (data) {\r\n      if (this.async) {\r\n        this.items = this.asyncKey ? data[this.asyncKey] : data\r\n        this.items = this.items.slice(0, this.limit)\r\n      } else {\r\n        this.items = (data || []).filter(value => {\r\n          if (typeof value === 'object') { return true }\r\n          value = this.matchCase ? value : value.toLowerCase()\r\n          var query = this.matchCase ? this.val : this.val.toLowerCase()\r\n          return this.matchStart ? value.indexOf(query) === 0 : value.indexOf(query) !== -1\r\n        }).slice(0, this.limit)\r\n      }\r\n      this.showDropdown = this.items.length > 0\r\n    },\r\n    setValue (value) {\r\n      this.asign = value\r\n      this.val = value\r\n      this.items = []\r\n      this.loading = false\r\n      this.showDropdown = false\r\n    },\r\n    reset () { this.setValue(null) },\r\n    close () { this.setValue(this.val) },\r\n    setActive (index) { this.current = index },\r\n    isActive (index) { return this.current === index },\r\n    hit (e) {\r\n      e.preventDefault()\r\n      this.setValue(this.onHit(this.items[this.current] || this.val, this))\r\n    },\r\n    up () {\r\n      if (this.current >= 0) { this.current-- }\r\n      else { this.current = this.items.length - 1 }\r\n    },\r\n    down () {\r\n      if (this.current < this.items.length - 1) { this.current++ }\r\n      else { this.current = -1 }\r\n    }\r\n  },\r\n  created () {\r\n    this.__update = delayer(function () {\r\n      if (!this.val) {\r\n        this.reset()\r\n        return\r\n      }\r\n      this.asign = ''\r\n      if (this.async) {\r\n        this.asyncCallback(this.async, this.val).then(data => {\r\n          this.setItems(data)\r\n        })\r\n      } else if (this.data) {\r\n        this.setItems(this.data)\r\n      }\r\n    }, 'delay', DELAY)\r\n    this.__update()\r\n  }\r\n}\r\n</script>\r\n\r\n<style>\r\n.dropdown-menu > li > a {\r\n  cursor: pointer;\r\n}\r\n</style>"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -9211,7 +9211,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    templateComp: function templateComp() {
 	      return {
 	        template: typeof this.template === 'string' ? '<span>' + this.template + '</span>' : '<strong v-html="item"></strong>',
-	        props: { item: { default: null } }
+	        props: { item: { default: null }, query: { default: null } }
 	      };
 	    }
 	  },
@@ -9341,9 +9341,9 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ (function(module, exports, __webpack_require__) {
 
 	__webpack_require__(196);
+	__webpack_require__(204);
 	__webpack_require__(205);
 	__webpack_require__(206);
-	__webpack_require__(207);
 	module.exports = __webpack_require__(7).Symbol;
 
 
@@ -9366,16 +9366,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	var wks = __webpack_require__(48);
 	var wksExt = __webpack_require__(55);
 	var wksDefine = __webpack_require__(198);
-	var keyOf = __webpack_require__(199);
-	var enumKeys = __webpack_require__(200);
-	var isArray = __webpack_require__(203);
+	var enumKeys = __webpack_require__(199);
+	var isArray = __webpack_require__(202);
 	var anObject = __webpack_require__(12);
 	var toIObject = __webpack_require__(36);
 	var toPrimitive = __webpack_require__(18);
 	var createDesc = __webpack_require__(19);
 	var _create = __webpack_require__(32);
 	var gOPNExt = __webpack_require__(60);
-	var $GOPD = __webpack_require__(204);
+	var $GOPD = __webpack_require__(203);
 	var $DP = __webpack_require__(11);
 	var $keys = __webpack_require__(34);
 	var gOPD = $GOPD.f;
@@ -9501,8 +9500,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  $GOPD.f = $getOwnPropertyDescriptor;
 	  $DP.f = $defineProperty;
 	  __webpack_require__(61).f = gOPNExt.f = $getOwnPropertyNames;
-	  __webpack_require__(202).f = $propertyIsEnumerable;
-	  __webpack_require__(201).f = $getOwnPropertySymbols;
+	  __webpack_require__(201).f = $propertyIsEnumerable;
+	  __webpack_require__(200).f = $getOwnPropertySymbols;
 	
 	  if (DESCRIPTORS && !__webpack_require__(27)) {
 	    redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
@@ -9530,9 +9529,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      : SymbolRegistry[key] = $Symbol(key);
 	  },
 	  // 19.4.2.5 Symbol.keyFor(sym)
-	  keyFor: function keyFor(key) {
-	    if (isSymbol(key)) return keyOf(SymbolRegistry, key);
-	    throw TypeError(key + ' is not a symbol!');
+	  keyFor: function keyFor(sym) {
+	    if (!isSymbol(sym)) throw TypeError(sym + ' is not a symbol!');
+	    for (var key in SymbolRegistry) if (SymbolRegistry[key] === sym) return key;
 	  },
 	  useSetter: function () { setter = true; },
 	  useSimple: function () { setter = false; }
@@ -9666,26 +9665,10 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var getKeys = __webpack_require__(34);
-	var toIObject = __webpack_require__(36);
-	module.exports = function (object, el) {
-	  var O = toIObject(object);
-	  var keys = getKeys(O);
-	  var length = keys.length;
-	  var index = 0;
-	  var key;
-	  while (length > index) if (O[key = keys[index++]] === el) return key;
-	};
-
-
-/***/ }),
-/* 200 */
-/***/ (function(module, exports, __webpack_require__) {
-
 	// all enumerable object keys, includes symbols
 	var getKeys = __webpack_require__(34);
-	var gOPS = __webpack_require__(201);
-	var pIE = __webpack_require__(202);
+	var gOPS = __webpack_require__(200);
+	var pIE = __webpack_require__(201);
 	module.exports = function (it) {
 	  var result = getKeys(it);
 	  var getSymbols = gOPS.f;
@@ -9700,21 +9683,21 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ }),
-/* 201 */
+/* 200 */
 /***/ (function(module, exports) {
 
 	exports.f = Object.getOwnPropertySymbols;
 
 
 /***/ }),
-/* 202 */
+/* 201 */
 /***/ (function(module, exports) {
 
 	exports.f = {}.propertyIsEnumerable;
 
 
 /***/ }),
-/* 203 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	// 7.2.2 IsArray(argument)
@@ -9725,10 +9708,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ }),
-/* 204 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var pIE = __webpack_require__(202);
+	var pIE = __webpack_require__(201);
 	var createDesc = __webpack_require__(19);
 	var toIObject = __webpack_require__(36);
 	var toPrimitive = __webpack_require__(18);
@@ -9747,27 +9730,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ }),
-/* 205 */
+/* 204 */
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-/* 206 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	__webpack_require__(198)('asyncIterator');
 
 
 /***/ }),
-/* 207 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	__webpack_require__(198)('observable');
 
 
 /***/ }),
-/* 208 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -9839,7 +9822,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }, [_c(_vm.templateComp, {
 	      tag: "component",
 	      attrs: {
-	        "item": item
+	        "item": item,
+	        "query": _vm.val
 	      }
 	    })], 1)])
 	  }))])
