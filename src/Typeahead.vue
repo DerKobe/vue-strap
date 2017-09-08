@@ -13,7 +13,7 @@
     <ul class="dropdown-menu" ref="dropdown">
       <li v-for="(item, i) in items" :class="{active: isActive(i)}">
         <a @mousedown.prevent="hit" @mousemove="setActive(i)">
-          <component :is="templateComp" :item="item"></component>
+          <component :is="templateComp" :item="item" :query="val"></component>
         </a>
       </li>
     </ul>
@@ -60,7 +60,7 @@ export default {
     templateComp () {
       return {
         template: typeof this.template === 'string' ? '<span>' + this.template + '</span>' : '<strong v-html="item"></strong>',
-        props: { item: {default: null} }
+        props: { item: {default: null}, query: {default: null} }
       }
     }
   },
