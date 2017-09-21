@@ -24,7 +24,7 @@ export default {
     header: {type: String},
     isOpen: {type: Boolean, default: null},
     type: {type: String, default: null},
-    toggle: {type: Function, default: () => {}}
+    toggled: {type: Function, default: () => {}}
   },
   data() {
     return {
@@ -46,7 +46,7 @@ export default {
       if (this.inAccordion) {
         this.$parent.openChild(this)
       }
-      this.toggle(this.open);
+      this.toggled(this.open);
     },
     enter (el) {
       el.style.height = 'auto'
