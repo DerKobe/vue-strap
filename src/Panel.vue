@@ -23,7 +23,8 @@ export default {
   props: {
     header: {type: String},
     isOpen: {type: Boolean, default: null},
-    type: {type: String, default : null}
+    type: {type: String, default: null},
+    toggle: {type: Function, default: () => {}}
   },
   data() {
     return {
@@ -45,6 +46,7 @@ export default {
       if (this.inAccordion) {
         this.$parent.openChild(this)
       }
+      this.toggle(this.open);
     },
     enter (el) {
       el.style.height = 'auto'
